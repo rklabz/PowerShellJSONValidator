@@ -28,3 +28,6 @@ Foreach-Object {
          Write-Host "*******" $_.Name " INVALID JSON *******" -BackgroundColor Red
      }
 }
+
+
+Read-Host ""*******"Finished validating files."*******""
